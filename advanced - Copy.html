@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+      #button {
+        user-select: none;
+        line-height: 100%;
+        height: 30px;
+        min-width: 120px;
+        float: right;
+        margin: 10px 0;
+        box-shadow: none;
+        background-color: #4d90fe;
+        background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+        border: 1px solid #3079ed;
+        color: #fff;
+        position: absolute;
+        transition: .5s ease top: 50%;
+        left: 40%;
+      }
+
+    </style>
+
+
+
+    <style>
+      .bar {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        white-space: nowrap;
+        background: #f1f1f1;
+        font: 13px/27px Arial, sans-serif;
+        position: relative;
+        height: 60px;
+        width: 100%;
+      }
+
+      <style>.h1 {
+        font-family: Arial text-align:center;
+      }
+
+    </style>
+
+    <style>
+      .image {
+        position: absolute;
+        transition: 5s ease;
+        top: 1%;
+        left: 1%
+      }
+
+    </style>
+
+
+    <style>
+      .advanced {
+        margin-left: 10px;
+        color: #d93025;
+        font-size: 20px;
+        margin: 25px 35px;
+        font-family: arial, sans-serif;
+      }
+
+    </style>
+
+    <style>
+      .input {
+        border-radius: 1px;
+        border: 1px solid #d9d9d9;
+        border-top: 1px solid #c0c0c0;
+        font-size: 13px;
+        height: 25px;
+        float: left;
+		box-sizing: border-box;
+		width: 475px;
+
+    </style>
+
+
+    <style>
+      .label {
+        width: 30%;
+        text-align: right;
+        padding-right: 10px;
+        margin: 5px 0px 5px 0px;
+      }
+
+    </style>
+
+    <style>
+      body {
+        font-family: arial, sans-serif;
+        font-size: 13px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        vertical-align: middle;
+      }
+
+    </style>
+
+    <style>
+      #grid {
+        display: grid;
+        padding: 20px;
+        grid-column-gap: 20px;
+      }
+
+    </style>
+	
+	<style>
+		.info {
+			height: 30px;
+			float: right;            
+			vertical-align: middle;
+		}
+	</style>
+	
+	<style>
+		#table{ 
+    display: table; 
+	padding: 15px;
+}
+.tr{ 
+    display: table-row; 
+	     
+}
+.td{ 
+    display: table-cell; 
+	}
+	</style>
+  </head>
+
+  <body>
+    <div class="bar"></div>
+    <label class="advanced"> Advanced Search</label>
+    <img src="ot-contrib-google.png" alt="Google Image logo" class="image" width="100" height="50">
+    <hr>
+    <form id="table" action="https://www.google.com/search?">
+
+
+      <div class="tr">
+        <label style="padding: 18px;" class="td">These Exact Words:</label>
+        <input name="as_q" type="text" class="input td" >
+		<label style="padding: 18px;" class="td">Type The Important Words: Big SUV Car</label>
+      </div>
+
+      <div class="tr">
+        <label style="padding: 18px;" class="td">These Exact Words or Phrases:</label>
+        <input name="as_epq" type="text" class="input td">
+		<label style="padding: 18px;" class="td">Put Exact Words In Quotes:  "Good Car"</label>
+      </div>
+
+      <div class="tr">
+        <label style="padding: 18px;" class="td">Any Of These Words:</label>
+        <input name="as_oq" type="text" class="input td">
+		<label style="padding: 18px;" class="td">Type OR Between All The Words You Want:  Big OR Huge</label>
+      </div>
+
+      <div class="tr">
+        <label style="padding: 18px;" class="td">None Of These Words:</label>
+        <input name="as_eq" type="text" class="input td">
+		<label style="padding: 18px;" class="td">Put A Minus Sign just Before Words You Don't Want:  -small -convertible</label>
+      </div>
+
+      <div>
+        <input id="button" type="submit" name="button" value="Advanced Search" />
+      </div>
+    </form>
+  </body>
+
+</html>
+

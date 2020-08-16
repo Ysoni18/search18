@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+         <title>Google Images Search</title>
+		 <style>
+		body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
+		</style>
+		
+		<style>
+           .rounded-input {
+			    
+				border-radius:10px;
+				margin:250px;
+				width: 650px;
+			}
+		</style>
+		
+		<style>
+			#input {
+				padding:10px;
+				border:0;
+				box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+				outline: none;
+				
+			}
+		</style>
+		
+		<style>
+			.image {
+				position:absolute;
+				transition: .5s ease;
+				top: 8%;
+				left: 40%;
+			}
+		</style>
+		
+		<style>
+			.button {	
+				position:absolute;
+				transition: .5s ease;
+				top: 31%;
+				left: 47%;
+				background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+				background-color: #f2f2f2;
+				border: 1px solid #f2f2f2;
+				border-radius: 4px;
+				color: #5F6368;
+				font-family: arial,sans-serif;
+				font-size: 14px;
+				margin: 11px 4px;
+				padding: 0 16px;
+				line-height: 27px;
+				height: 36px;
+				min-width: 54px;
+				text-align: center;
+				cursor: pointer;
+				user-select: none;
+			}
+		</style>
+		
+		<style>
+			.advanced {
+				color: grey;
+				font-family: helvetica;
+				font-size: 15px;
+				text-decoration: none;
+				text-transform: Capitalize;
+				position:absolute;
+				transition: .5s ease;
+				top: 2%;
+				left: 94%;
+		</style>
+		
+		<style>
+			.link {
+				color:  grey;
+				font-family: helvetica;
+				font-size: 15px;
+				text-decoration: none;
+				text-transform: Capitalize;
+				position:absolute;
+				transition: .5s ease;
+				top: 2%;
+				left: 90%;
+		</style>
+		
+		<style>
+			.logo-subtext {
+				color: #4285f4;
+				font: 16px/16px roboto-regular, arial, sans-serif;
+				left: 215px;
+				position: absolute;
+				transition: .5s ease;
+				top: 22%;
+				left: 54%;
+				white-space: nowrap;
+		}
+		</style>
+	</head>
+    <body>
+     <img src="ot-contrib-google.png" class="image" width="350" height="200">
+	 <span class="logo-subtext">Images</span>
+        <form action="https://www.google.com/search?" method="get" accept-charset="utf-8">
+			<input type="hidden" name="tbm" id="tbm" value="isch" />
+			<input type="text" name="q" class="rounded-input" id="input"  />
+			<input type="submit" name="search" class="button" id="search" value="Search" />
+		</form>
+		<a href="file:///C:/Users/soni_/Downloads/search/advanced.html" class="advanced">Advanced</a>
+		<a href="file:///C:/Users/soni_/Downloads/search/search.html" class="link">Search</a>
+    </body>
+</html>
